@@ -8,5 +8,5 @@ def batch_badge_creator(badges)
     conference_badges << name
     puts "Hello, my name is #{name}."
   end
-  badge_maker
+  badge_maker(conference_badges.each)
 end 
