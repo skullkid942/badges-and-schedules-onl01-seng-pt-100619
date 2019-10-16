@@ -7,4 +7,5 @@ def batch_badge_creator(attendees)
   attendees.each do |attendee|
     conference_badges << name
   end
+  badge_maker
 end 
