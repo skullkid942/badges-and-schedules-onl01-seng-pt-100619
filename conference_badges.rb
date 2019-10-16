@@ -3,9 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(badges)
-  conference_badges = []
+  badge_list = []
   name.each do |badges|	
     badge_maker(badges)	
   end	
-  conference_badges << badges
+  badge_list << badges
 end 
